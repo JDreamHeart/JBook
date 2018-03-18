@@ -16,3 +16,9 @@
   * [日常数学](daily\math\README.md)
 
   * [日常物理](daily\physics\README.md)
+
+
+* [工具相关](tools\README.md)
+
+	* [工具安装相关](tools\install\README.md)
+		* [Python+wxpython+pyInstaller的安装](tools\install\py_wxpython_pyInstaller.md)
