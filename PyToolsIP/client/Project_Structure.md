@@ -29,12 +29,12 @@
 |—— config -> 配置模块  
 |  
 |—— core -> 核心功能模块  
+|    |  
+|    |—— [behaviorCore -> 组件功能模块](common/core/Behavior_Core)  
 |	 |  
-|	 |—— [behaviorCore -> 组件功能模块](common/core/Behavior_Core.md)  
+|	 |—— [eventDispatchCore -> 事件分发功能模块](common/core/Event_Dispatch_Core)  
 |	 |  
-|	 |—— [eventDispatchCore -> 事件分发功能模块](common/core/Event_Dispatch_Core.md)  
-|	 |  
-|	 |—— [hotKeyCore -> 热键功能模块](./common/core/Hot_Key_Core.md)  
+|	 |—— [hotKeyCore -> 热键功能模块](./common/core/Hot_Key_Core)  
 |  
 |—— data -> 数据处理类合集  
 |  

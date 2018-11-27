@@ -6,6 +6,7 @@
 * [PyToolsIP](PyToolsIP/README.md)
   * [客户端（client）](PyToolsIP/client/README.md)
     * [项目结构](PyToolsIP/client/Project_Structure.md)
+    * [公共基础框架](PyToolsIP/client/common/README.md)
   * [服务端（server）](PyToolsIP/server/README.md)
   * [安装程序（installer）](PyToolsIP/installer/README.md)
 
