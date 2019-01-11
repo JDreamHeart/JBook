@@ -22,6 +22,7 @@
 * [日常](daily/README.md)
     * [日常编程](daily/coding/README.md)
         * [python语言](daily/coding/python/README.md)
+            * [Python编程技巧](daily/coding/python/Python_Coding_Skills.md)
     * [日常数学](daily/math/README.md)
         * [观察空间到裁剪空间的投影矩阵推导](daily/math/ModelSpace_2_ClipSpace_MatrixDeduction.md)
     * [日常物理](daily/physics/README.md)
