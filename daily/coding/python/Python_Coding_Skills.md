@@ -1,13 +1,13 @@
 # Python编程技巧
   * 程序必须先让人读懂，然后才能让计算机执行。
 
-### 1. 交换赋值
+### 1.交换赋值
 ```
 # 先生成一个元素（tuple）对象，然后unpack
 a, b = b, a;
 ```
 
-### 2. Unpacking
+### 2.Unpacking
 ```
 # 使用变量接收列表中的数据
 l = ["a", "b", "c"];
@@ -16,20 +16,20 @@ a, b, c = l;
 a, *midList, c = l;
 ```
 
-### 3. 使用操作符in
+### 3.使用操作符in
 ```
 # 使用 in 更加简洁，避免多次判断
 if t in ["a", "b", "c"]:
     # 执行满足条件后的逻辑
 ```
 
-### 4. 字符串操作
+### 4.字符串操作
 ```
 l = ['a', 'b', 'c', 'd']
 result = ''.join(l)  #  没有额外的内存分配
 ```
 
-### 5. 字典键值列表
+### 5.字典键值列表
 ```
 # 不推荐
 for key in my_dict.keys():
@@ -42,7 +42,7 @@ for key in my_dict:
 # 只有当循环中需要更改key值的情况下，才需要使用my_dict.keys()来生成静态的键值列表。
 ```
 
-### 6. 字典键值判断
+### 6.字典键值判断
 ```
 # 不推荐
 if my_dict.has_key(key):
@@ -53,7 +53,7 @@ if key in my_dict:
     # ...do something with my_dict[key]
 ```
 
-### 7. 字典 get 和 setdefault 方法
+### 7.字典 get 和 setdefault 方法
 ```
 # 不推荐
 navs = {}
@@ -73,7 +73,7 @@ for (portfolio, equity, position) in data:
     navs[portfolio] += position * prices[equity]
 ```
 
-### 8. 判断真伪
+### 8.判断真伪
 ```
 # 不推荐
 if x == True:
@@ -90,7 +90,7 @@ if items:
     # ...
 ```
 
-### 9. 遍历列表以及索引
+### 9.遍历列表以及索引
 ```
 # 不推荐
 items = 'zero one two three'.split()
@@ -109,7 +109,7 @@ for i, item in enumerate(items):
     print(i, item)
 ```
 
-### 10. 列表推导
+### 10.列表推导
 ```
 # 不推荐
 new_list = []
@@ -121,7 +121,7 @@ for item in a_list:
 new_list = [fn(item) for item in a_list if condition(item)]
 ```
 
-### 11. 列表推导-嵌套
+### 11.列表推导-嵌套
 ```
 # 不推荐
 for sub_list in nested_list:
@@ -135,7 +135,7 @@ for item in gen:
     # do something...
 ```
 
-### 12. 循环嵌套
+### 12.循环嵌套
 ```
 # 不推荐
 for x in x_list:
@@ -149,7 +149,7 @@ for x, y, z in product(x_list, y_list, z_list):
     # do something for x, y, z
 ```
 
-### 13. 尽量使用生成器代替列表
+### 13.尽量使用生成器代替列表
 ```
 # 不推荐
 def my_range(n):
@@ -174,7 +174,7 @@ for res in my_range(10):
 *尽量用生成器代替列表，除非必须用到列表特有的函数。
 ```
 
-### 14. 中间结果尽量使用imap/ifilter代替map/filter
+### 14.中间结果尽量使用imap/ifilter代替map/filter
 ```
 # 不推荐
 reduce(rf, filter(ff, map(mf, a_list)))
@@ -186,7 +186,7 @@ reduce(rf, ifilter(ff, imap(mf, a_list)))
 # lazy evaluation 会带来更高的内存使用效率，特别是当处理大数据操作的时候。
 ```
 
-### 15. 使用any/all函数
+### 15.使用any/all函数
 ```
 # 不推荐
 found = False
@@ -205,7 +205,7 @@ if any(condition(item) for item in a_list):
   * all(iterable)：iterable元素都不为False、''、0或者iterable为空，则all(iterable)为True。也就是说，只要iterable元素有一个为"假"，则为False，**"全‘真’为True，有‘假’为False"**。当iterable为空的时候，函数返回值为True。
   * any(iterable)：iterable的任何元素都为False、0，''，或者iterable全为空，则any(iterable)为False。也就是说所有的iterable都为'假'，则any(iterable)为False，**"全‘假’为False，有‘真’为True"**。当iterable为空的时候，函数返回值为False。
 
-### 16. 属性(property)
+### 16.属性(property)
 ```
 # 不推荐
 class Clock(object):
@@ -232,7 +232,7 @@ c = Clock();
 c.hour = 25 # 会出现"Error Hour!"的报错
 ```
 
-### 17. 使用 with 处理文件打开
+### 17.使用 with 处理文件打开
 ```
 # 不推荐
 f = open("some_file.txt")
@@ -248,7 +248,7 @@ with open("some_file.txt") as f:
     # 其他文件操作...
 ```
 
-### 18. 使用 with 忽视异常(仅限Python 3)
+### 18.使用 with 忽视异常(仅限Python 3)
 ```
 ##不推荐
 try:
@@ -263,7 +263,7 @@ with ignored(OSError):
     os.remove("somefile.txt")
 ```
 
-### 19. 使用 with 处理加锁
+### 19.使用 with 处理加锁
 ```
 # 不推荐
 import threading
