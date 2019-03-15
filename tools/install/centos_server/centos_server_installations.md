@@ -54,3 +54,23 @@ systemctl enable redis_6379
 systemctl status redis_6379
 ```
 
+## 4 httpd
+安装命令
+```
+yum install httpd
+```
+启动服务
+```
+systemctl start httpd.service
+```
+停止服务
+```
+systemctl stop httpd.service
+```
+重启服务
+```
+systemctl restart httpd.service
+```
+设置apache开机启动
+```
+systemctl enable httpd.service
