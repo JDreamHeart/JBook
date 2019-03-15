@@ -24,3 +24,31 @@
 ```
 yum install git
 ```
+
+## 3 redis
+### 3.1 安装依赖库
+```
+yum install gcc make
+```
+
+### 3.2 下载、解压缩、编译安装
+```
+curl http://download.redis.io/releases/redis-x.x.x.tar.gz -o redis-x.x.x.tar.gz
+tar zxvf redis-x.x.x.tar.gz
+cd redis-x.x.x
+make
+cd src
+make install
+```
+
+### 3.3 设置为自启动，开机自启
+```
+./utils/install-server.sh
+# 启动
+systemctl start redis_6379
+# 开机启动
+systemctl enable redis_6379
+# 查看状态
+systemctl status redis_6379
+```
+
