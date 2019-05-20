@@ -74,9 +74,10 @@ systemctl restart httpd.service
 设置apache开机启动
 ```
 systemctl enable httpd.service
+```
 
 ## 5 安装python3
-下载命令
+下载安装命令
 ```
 wget https://www.python.org/ftp/python/版本号/文件名.tgz
 tar zxvf 文件名.tgz
