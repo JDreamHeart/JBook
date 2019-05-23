@@ -3,15 +3,15 @@
 * [简介](README.md)
 
 -----
-* [PyToolsIP](PyToolsIP/README.md)
-    * [客户端（client）](PyToolsIP/client/README.md)
-        * [项目结构](PyToolsIP/client/Project_Structure.md)
-        * [公共基础框架](PyToolsIP/client/common/README.md)
-            * [组件功能模块](PyToolsIP/client/common/core/Behavior_Core.md)
-            * [事件分发功能模块](PyToolsIP/client/common/core/Event_Dispatch_Core.md)
-            * [热键功能模块](PyToolsIP/client/common/core/Hot_Key_Core.md)
-    * [服务端（server）](PyToolsIP/server/README.md)
-    * [安装程序（installer）](PyToolsIP/installer/README.md)
+* [PyToolsIP](pytoolsip/README.md)
+    * [客户端（client）](pytoolsip/client/README.md)
+        * [项目结构](pytoolsip/client/Project_Structure.md)
+        * [公共基础框架](pytoolsip/client/common/README.md)
+            * [组件功能模块](pytoolsip/client/common/core/Behavior_Core.md)
+            * [事件分发功能模块](pytoolsip/client/common/core/Event_Dispatch_Core.md)
+            * [热键功能模块](pytoolsip/client/common/core/Hot_Key_Core.md)
+    * [服务端（server）](pytoolsip/server/README.md)
+    * [安装程序（installer）](pytoolsip/installer/README.md)
 
 -----
 * [工作项目](workProject/README.md)
