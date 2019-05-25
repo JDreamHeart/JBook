@@ -17,7 +17,7 @@ for i, num in enumerate(nums, start=10):
 ```
 
 ## 2. 使用递推式构造列表而不是map()和filter()
-  *  调用map()
+  * 调用map()
 ```py
 nums = [1,2,3,4,5]
 def square(x):
