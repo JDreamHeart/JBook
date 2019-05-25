@@ -29,6 +29,7 @@ checkIsContain("My test string !"); # True
 ## 4. 枚举(3.4+)
   * 枚举是符号名称（成员）的集合，这些符号名称与唯一的常量值绑定在一起。
   * 在枚举中，可以通过表示对成员进行比较操作，而枚举本身也可以被遍历。
+
 ```py
 from enum import Enum, auto;
 
