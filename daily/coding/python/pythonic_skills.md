@@ -17,7 +17,7 @@ for i, num in enumerate(nums, start=10):
 ```
 
 ## 2. 使用递推式构造列表而不是map()和filter()
-  * 调用map()
+  * 调用`map()`
 ```py
 nums = [1,2,3,4,5]
 def square(x):
@@ -28,7 +28,7 @@ ret = list(map(square, nums))
 ret = [square(x) for x in nums]
 ```
 
-  * 调用filter()
+  * 调用`filter()`
 ```py
 nums = [1,2,3,4,5]
 def is_odd(x):
@@ -40,8 +40,8 @@ ret = [x for x in nums if is_odd(x)]
 ```
 
 ## 3. 使用断点breakpoint()调试而不是print()
-  * 若使用的是Python3.7，则无需导入任何内容，只需在代码中要放入调试器的位置调用breakpoint();
-  * Python3.6-版本，需显示导入pdb：
+  * 若使用的是`Python3.7`，则无需导入任何内容，只需在代码中要放入调试器的位置调用`breakpoint()`;
+  * `Python3.6-`版本，需显示导入`pdb`：
 ```py
 import pdb; pdb.set_trace();
 ```
@@ -50,8 +50,8 @@ import pdb; pdb.set_trace();
   * 参考[Python3特性](python3_feature.md)中的第1项。
 
 ## 5. 使用sorted()对复杂列表进行排序
-  * 默认情况下，sorted()已按升序对输入进行排序，而reverse关键字参数则按降序排序。
-  * 可选关键字key允许在排序之前指定将在每个元素上调用的函数。添加函数允许自定义排序规则。
+  * 默认情况下，`sorted()`已按升序对输入进行排序，而`reverse`关键字参数则按降序排序。
+  * 可选关键字`key`允许在排序之前指定将在每个元素上调用的函数。添加函数允许自定义排序规则。
 ```py
 data = [
 	{"type" : "int", "value" : 5},
