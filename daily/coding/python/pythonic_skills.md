@@ -17,7 +17,7 @@ for i, num in enumerate(nums, start=10):
 ```
 
 ## 2. 使用递推式构造列表而不是map()和filter()
-  * 调用`map()`
+  * 调用`map()`方法：
 ```py
 nums = [1,2,3,4,5]
 def square(x):
@@ -28,7 +28,7 @@ ret = list(map(square, nums))
 ret = [square(x) for x in nums]
 ```
 
-  * 调用`filter()`
+  * 调用`filter()`方法：
 ```py
 nums = [1,2,3,4,5]
 def is_odd(x):
