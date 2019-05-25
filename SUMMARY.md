@@ -37,4 +37,5 @@
         * [centos服务器相关](tools/install/centos_server/README.md)
             * [Linux服务器常用命令](tools/install/centos_server/centos_server_command.md)
             * [Centos7.2服务器的软件安装](tools/install/centos_server/centos_server_installations.md)
-
+    * [工具使用相关](tools/usage/README.md)
+        * [django的用法](tools/usage/django_usage.md)
