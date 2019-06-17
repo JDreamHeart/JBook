@@ -3,4 +3,5 @@
 
 主要内容：
 
+  * [编程笔记](coding_notes.md)
   * [python语言](python/README.md)
