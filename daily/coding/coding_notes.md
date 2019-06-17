@@ -54,3 +54,31 @@ struct Data {
   * **模块一定要隐藏实现细节，只暴露必要接口**
   * **优先考虑组合，后考虑在行为一致的基础上使用继承**
   * **高层策略性代码不要依赖实现底层细节，底层细节的代码应该依赖高层策略性代码**
+
+### 3.2 代码层级
+  * 在使用判断逻辑时，尽量通过使用return、continue或break，来避免代码层级过深二导致阅读困难。
+```go
+func traversing(v, vals) bool {
+  if v != nil {
+    for _,val := range vals {
+      if val == v {
+        return true
+      }
+    }
+  }
+  return false
+}
+
+// 可修改为以下方式
+func traversing(v, vals) bool {
+  if v != nil {
+    return false
+  }
+  for _,val := range vals {
+    if val == v {
+      return true
+    }
+  }
+  return false
+}
+```
