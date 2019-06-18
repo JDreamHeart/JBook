@@ -1,0 +1,12 @@
+{
+	"title" : "JimDreamHeart-Gitbook",
+	"author" : "梦心DH",
+	"description" : "个人文档合集",
+	"language" : "zh-hans",
+	"links" : {
+		"sidebar" : {
+			"Home" : "http://jimdreamheart.club"
+		}
+	},
+	"plugins" : ["toggle-chapters"]
+}
