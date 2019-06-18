@@ -10,6 +10,7 @@
 
 #### 1.1.2 多层基本数据组合而成的数据需要进行合理拆分
   * 当存在多层基本数据组合而成的数据时，为了方便理解，需要进行合理拆分及添加相应注释。
+  
 ```go
 struct Data {
   groupListMap map[int][][]int
@@ -57,6 +58,7 @@ struct Data {
 
 ### 3.2 代码层级
   * 在使用判断逻辑时，尽量通过使用return、continue或break，来避免代码层级过深二导致阅读困难。
+  
 ```go
 func traversing(v, vals) bool {
   if v != nil {
