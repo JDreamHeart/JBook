@@ -14,12 +14,12 @@
 				* [日志功能模块](pytoolsip/client/common/core/Log_Core.md)
 				* [定时器管理功能模块](pytoolsip/client/common/core/Timer_Core.md)
 			* 公共组件
-				* [配置解析组件](pytoolsip/client/common/core/ConfigParse_Behavior.md)
-				* [拷贝组件](pytoolsip/client/common/core/Copy_Behavior.md)
-				* [格式化组件](pytoolsip/client/common/core/Format_Behavior.md)
-				* [安装组件](pytoolsip/client/common/core/Install_Behavior.md)
-				* [服务相关组件](pytoolsip/client/common/core/Service_Behavior.md)
-				* [校验组件](pytoolsip/client/common/core/Verify_Behavior.md)
+				* [配置解析组件](pytoolsip/client/common/behavior/ConfigParse_Behavior.md)
+				* [拷贝组件](pytoolsip/client/common/behavior/Copy_Behavior.md)
+				* [格式化组件](pytoolsip/client/common/behavior/Format_Behavior.md)
+				* [安装组件](pytoolsip/client/common/behavior/Install_Behavior.md)
+				* [服务相关组件](pytoolsip/client/common/behavior/Service_Behavior.md)
+				* [校验组件](pytoolsip/client/common/behavior/Verify_Behavior.md)
 			
     * [服务端（server）](pytoolsip/server/README.md)
     * [安装程序（installer）](pytoolsip/installer/README.md)
