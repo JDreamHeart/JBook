@@ -1,7 +1,7 @@
 # 服务端组件
 
 ## 平台信息（IPInfoBehavior）
-  * 依赖组件：
+  * 依赖组件  
 ```py
 {
 	"path" : "ConfigParseBehavior/IniConfigParseBehavior",
@@ -9,7 +9,7 @@
 }
 ```
 
-  * 导出接口
+  * 导出接口  
 ```py
 # 获取平台信息配置对象
 # @return object ini配置对象
@@ -34,7 +34,7 @@ removeIPInfoConfig(section, option = None);
 ```
 
 ## 基础服务（ServiceBehavior）
-  * 依赖组件
+  * 依赖组件  
 ```py
 {
 	"path" : "serviceBehavior/UpDownloadBehavior",
@@ -46,7 +46,7 @@ removeIPInfoConfig(section, option = None);
 }
 ```
 
-  * 导出接口
+  * 导出接口  
 ```py
 # 检测更新平台
 checkUpdateIP();
@@ -56,7 +56,7 @@ autoLoginIP();
 ```
 
 ## 工具服务（ToolServiceBehavior）
-  * 依赖组件
+  * 依赖组件  
 ```py
 {
 	"path" : "serviceBehavior/UpDownloadBehavior", 
@@ -64,7 +64,7 @@ autoLoginIP();
 }
 ```
 
-  * 导出接口
+  * 导出接口  
 ```py
 # 上传工具
 _uploadTool_();
@@ -78,7 +78,7 @@ _downloadTool_();
 ```
 
 ## 上传及下载（UpDownloadBehavior）
-  * 导出接口
+  * 导出接口  
 ```py
 # 下载文件
 # @params url 下载地址
@@ -111,7 +111,7 @@ unzipFile(filePath, dirpath, finishCallback = None);
 ```
 
 ## 用户服务（UserServiceBehavior）
-  * 依赖组件
+  * 依赖组件  
 ```py
 {
 	"path" : "serviceBehavior/IPInfoBehavior", 
@@ -119,7 +119,7 @@ unzipFile(filePath, dirpath, finishCallback = None);
 }
 ```
 
-  * 导出接口
+  * 导出接口  
 ```py
 # 登录平台
 _loginIP_();

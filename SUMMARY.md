@@ -7,20 +7,6 @@
     * [客户端（client）](pytoolsip/client/README.md)
         * [项目结构](pytoolsip/client/Project_Structure.md)
         * [公共基础框架](pytoolsip/client/common/README.md)
-			* 核心功能
-				* [组件功能模块](pytoolsip/client/common/core/Behavior_Core.md)
-				* [事件分发功能模块](pytoolsip/client/common/core/Event_Dispatch_Core.md)
-				* [热键功能模块](pytoolsip/client/common/core/Hot_Key_Core.md)
-				* [日志功能模块](pytoolsip/client/common/core/Log_Core.md)
-				* [定时器管理功能模块](pytoolsip/client/common/core/Timer_Core.md)
-			* 公共组件
-				* [配置解析组件](pytoolsip/client/common/behavior/ConfigParse_Behavior.md)
-				* [拷贝组件](pytoolsip/client/common/behavior/Copy_Behavior.md)
-				* [格式化组件](pytoolsip/client/common/behavior/Format_Behavior.md)
-				* [安装组件](pytoolsip/client/common/behavior/Install_Behavior.md)
-				* [服务相关组件](pytoolsip/client/common/behavior/Service_Behavior.md)
-				* [校验组件](pytoolsip/client/common/behavior/Verify_Behavior.md)
-			
     * [服务端（server）](pytoolsip/server/README.md)
     * [安装程序（installer）](pytoolsip/installer/README.md)
 

@@ -1,7 +1,7 @@
 # 校验组件
 
 ## 校验环境
-  * 导出接口
+  * 导出接口  
 ```py
 # 校验python环境
 # @params pythonPath python程序路径【不传默认使用环境变量的python】

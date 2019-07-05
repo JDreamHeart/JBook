@@ -1,7 +1,7 @@
 # 配置解析组件
 
 ## 1. ini配置解析（IniConfigParseBehavior）
-  * 导出接口
+  * 导出接口  
 ```py
 # 读取ini配置文件
 # @params iniFilePath 文件路径
@@ -25,7 +25,7 @@ removeIniConfig(iniFilePath, section, option = None);
 ```
 
 ## 2. json配置解析（JsonConfigBehavior）
-  * 导出接口
+  * 导出接口  
 ```py
 # 写入json配置文件
 # @params filePath 文件路径
@@ -39,7 +39,7 @@ readJsonFile(filePath)
 ```
 
 ## 3. xml配置解析（XmlConfigParseBehavior）
-  * 导出接口
+  * 导出接口  
 ```py
 # 根据文件路径，获取元素树对象
 # @params filePath 文件路径

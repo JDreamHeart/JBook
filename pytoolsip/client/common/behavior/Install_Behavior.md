@@ -1,7 +1,7 @@
 # 安装组件
 
 ## 1. 安装Python包/模块（InstallPythonPackageBehavior）
-  * 导出接口
+  * 导出接口  
 ```py
 # 获取已通过pip安装的包
 # @params pythonPath python程序路径【不传默认使用环境变量的python】
