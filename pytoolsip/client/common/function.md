@@ -1,6 +1,6 @@
 # 基础函数
 
-## 1. 动态加载模块
+## 动态加载模块
 `require(filePath, moduleName, subModuleName = None, isReload = False, isReserve = False, modulePathBase = "")`  
 
 参数：  
@@ -15,7 +15,7 @@
   * object : 模块对象
 
 
-## 2. 根据相对路径获取路径
+## 根据相对路径获取路径
 `GetPathByRelativePath(path, basePath = "")`  
 
 参数：
@@ -26,7 +26,7 @@
   * string : 绝对路径
 
 
-## 3. 创建控制类（视图或窗口）
+## 创建控制类（视图或窗口）
 `CreateCtr(path, parent, params = {}, isReload = False, isReserve = False, modulePathBase = "")`  
 
 参数：
@@ -41,27 +41,27 @@
   * object : 模块对象
 
 
-## 4. 销毁控制类【需先销毁UI】（视图或窗口）
+## 销毁控制类【需先销毁UI】（视图或窗口）
 `DelCtr(ctr)`  
 
 参数：
   * ctr : 模块对象
 
-## 5. 主动销毁类
+## 主动销毁类
 `Del(obj)`  
 
 参数：
   * obj : 模块对象
 
 
-## 6. 校验路径
+## 校验路径
 `VerifyPath(path)`  
 
 参数：
   * path : 路径
 
 
-## 7. 检测版本
+## 检测版本
 `CheckVersion(v1, v2, isCheckFirst = True, isIncludeEqu = False)`  
 
 参数：
@@ -74,7 +74,7 @@
   * boolean : 版本1 > 版本1 || isIncludeEqu
 
 
-## 8. 停止线程
+## 停止线程
 `stopThread(thread)`  
 
 参数：
