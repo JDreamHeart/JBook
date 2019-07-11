@@ -3,4 +3,5 @@
 
 主要内容：
 
+  * [高等数学](./advanced_mathematics/README.md)
   * [观察空间到裁剪空间的投影矩阵推导](./model_2_clip_projection_matrix/README.md)

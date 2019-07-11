@@ -56,6 +56,7 @@
             * [Python3特性](daily/coding/python/python3_feature.md)
             * [pythonic方式](daily/coding/python/pythonic_skills.md)
     * [日常数学](daily/math/README.md)
+		* [高等数学](daily/math/advanced_mathematics/README.md)
         * [观察空间到裁剪空间的投影矩阵推导](daily/math/model_2_clip_projection_matrix/README.md)
     * [日常物理](daily/physics/README.md)
 
