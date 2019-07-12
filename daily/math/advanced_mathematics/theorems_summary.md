@@ -70,4 +70,62 @@ $$|f(x)|>M$$
 
 #### 定理4
 设有数列${x_n}$和${y_n}$。如果$$\lim_{n \to \infty} x_n = A, \lim_{n \to \infty} y_n = B$$，那么  
-  * (1)$\lim_{n \to \infty} (x_n \pm y_n) = A \pm B$
+  * (1)$$\lim_{n \to \infty} (x_n \pm y_n) = A \pm B$$
+  * (2)$$\lim_{n \to \infty} x_n \cdot y_n = A \cdot B$$
+  * (3)当$y_n \neq0(n = 1,2,...)$且$B \neq 0$时，$$\lim_{n \to \infty} \frac{x_n}{y_n} = \frac{A}{B}$$
+
+#### 定理5
+如果$\varphi(x) \geq \psi(x)$，而$\lim \varphi(x) = a, \lim \psi(x) = b$，那么$a \geq b$。
+
+#### 定理6（复合函数的极限运算法则）
+设函数$y = f[g(x)]$是由函数$u = g(x)$与函数$y = g(u)$复合而成，$f[g(x)]$在点$x_0$的某去心邻域内有定义，若$\lim_ {x\to x_0} g(x) = u_0, \lim_ {u\to u_0} f(u) = A$，且存在$\delta_0 > 0$，当$x \in \bigcup ^ \circ (x_0, \delta_0)$时，有$g(x) \pm u_0$，则$$\lim_{x \to x_0} f[g(x)] = \lim_{u \to u_0} f(u) = A$$
+
+
+### 极限存在准则
+`准则1`及`准则1'`称为**夹逼准则**。
+
+#### 准则1
+如果数列$\{x_n\}$、$\{y_n\}$及$\{z_n\}$满足下列条件：  
+(1) 从某项起，即$\exists n_0 \in N$，当$n > n_0$时，有$$y_n \leq x_n \leq z_n$$
+(2) $$\lim_{n \to \infty} y_n = a, \lim_{n \to \infty} z_n = a$$
+那么数列$\{x_n\}$的极限存在，且$\lim_{n \to \infty} x_n = a$。
+
+##### 准则1'
+如果  
+(1) $x \in \bigcup ^ \circ (x_0, r)$（或$|x| > M$）时，$$g(x) \leq f(x) \leq h(x)$$
+(2) $$\lim_{x \to x_0 (x \to \infty)} g(x) = A, \lim_{x \to x_0 (x \to \infty)} h(x) = A$$
+那么$\lim_{x \to x_0 (x \to \infty)} f(x)$存在，且等于A。
+
+#### 准则2
+单调有界数列必有极限。
+
+##### 准则2'
+设函数$f(x)$在点$x_0$的某个左邻域内单调并且有界，则$f(x)$在$x_0$的左极限$f(x_0^-)$必定存在。
+
+#### 柯西极限存在准则（柯西审敛原理）
+数列$\{x_n\}$收敛的充分必要条件是：对于任意给定的正数$\varepsilon$，存在着这样的正整数N，使得当$m > N, n > N$时，就有$$|x_n - x_m| < \varepsilon$$。
+
+
+### 无穷小的比较
+
+#### 定义
+  * 如果$\lim \frac{\beta}{\alpha} = 0$, 就说$\beta$是比$\alpha$**高阶的无穷小**，记作$\beta = \omicron (\alpha)$;
+  * 如果$\lim \frac{\beta}{\alpha} = \infty$, 就说$\beta$是比$\alpha$**低阶的无穷小**;
+  * 如果$\lim \frac{\beta}{\alpha} = c \neq 0$, 就说$\beta$与$\alpha$是**同阶无穷小**;
+  * 如果$\lim \frac{\beta}{\alpha} = c \neq 0, k > 0$, 就说$\beta$是关于$\alpha$的**k阶无穷小**;
+  * 如果$\lim \frac{\beta}{\alpha} = 1$, 就说$\beta$与$\alpha$的**等阶无穷小**，记作$\alpha$~$\beta$。
+
+#### 定理1
+$\beta$与$\alpha$是等价无穷小的充分必要条件为$$\beta = \alpha + \omicron (\alpha)$$。
+
+#### 定理2
+设$\alpha$~$\alpha '$，$\beta$~$\beta '$，且$\lim \frac{\beta '}{\alpha '}$存在，则$$\lim \frac{\beta}{\alpha} = \lim \frac{\beta '}{\alpha '}$$。
+
+
+### 函数的连续性与间断点
+
+## 定义
+设函数$y = f(x)$在点$x_0$的某一邻域内有定义，如果$$\lim_{\Delta x \to 0}[f(x_0 + \Delta x) - f(x_0)] = 0$$，那么就称函数$y = f(x)$在点$x_0$连续。  
+
+**函数$y = f(x)$在点$x_0$连续的定义：**  
+设函数$y = f(x)$在点$x_0$的某一邻域内有定义，如果$$\lim_{\Delta x \to 0}[f(x)] = f(x_0)$$，那么就称函数$f(x)$在点$x_0$连续。 
