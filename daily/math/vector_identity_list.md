@@ -34,3 +34,18 @@
 这里，$\nabla^2 \vec{A}$ 应被理解为对 $\vec{A}$ 的每个分量取拉普拉斯算子，即向量值函数的拉普拉斯算子。
 
 ## 积分
+  * $\oint_S \vec{A} \cdot d \vec{S} = \int_V (\nabla \cdot \vec{A})dV$ （散度定理）
+  * $\oint_S \psi d \vec{S} = \int_V \nabla \psi dV$
+  * $\oint_S (\hat{\vec{n}} \times \vec{A}) \cdot d \vec{S} = \int_V (\nabla \times \vec{A}) dV$
+  * $\oint_C \vec{A} \cdot d \vec{l} = \int_S (\nabla \times \vec{A}) \cdot d\vec{S}$ （斯托克斯定理）
+  * $\oint_C \psi d \vec{l} = \int_S (\hat{\vec{n}} \times \nabla \psi) dS$
+
+## 格林恒等式
+### 格林第一恒等式
+$$\int_U (\psi \nabla^2 \phi + \nabla \phi \cdot \nabla \psi) dV = \oint_{\partial U} \psi \frac{\partial \phi}{\partial n} dS$$
+
+### 格林第二恒等式
+$$\int_U (\psi \nabla^2 \phi - \phi \nabla^2 \psi) dV = \oint_{\partial U} (\psi \frac{\partial \phi}{\partial n} - \phi \frac{\partial \psi}{\partial n}) dS$$
+
+### 格林第三恒等式
+$$\psi (x) - \int_U [G(x, x') \nabla'^2 \psi(x')] dV' = \oint_{\partial U}[\psi(x') \frac{\partial G(x, x')}{\partial n'} - G(x, x') \frac{\partial \psi(x')}{\partial n'}] dS'$$
