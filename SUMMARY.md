@@ -51,6 +51,7 @@
 * [日常](daily/README.md)
     * [日常编程](daily/coding/README.md)
         * [编程笔记](daily/coding/coding_notes.md)
+        * [编程风格](daily/coding/coding_style.md)
         * [python语言](daily/coding/python/README.md)
             * [Python编程技巧](daily/coding/python/Python_Coding_Skills.md)
             * [Python3特性](daily/coding/python/python3_feature.md)
