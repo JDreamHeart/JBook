@@ -82,6 +82,7 @@ AssetBundle进行内存释放的方式：
 
 ## 13. sealed关键字用于类声明和函数声明时的作用
   * sealed修饰的类成为密封类，类声明时可防止其他类继承此类，在方法中声明则可防止派生类重写此方法。
+  * String是sealed类。
 
 ## 14. 在物体发生碰撞的整个过程中，对应阶段的函数
   * 三个阶段：OnCollisionEnter -> OnCollisionStay -> OnCollisionExit
