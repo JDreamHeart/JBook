@@ -58,11 +58,15 @@
             * [pythonic方式](daily/coding/python/pythonic_skills.md)
     * [日常数学](daily/math/README.md)
 		* [高等数学](daily/math/advanced_mathematics/README.md)
+            * [公式汇总](daily/math/advanced_mathematics/formula_summary.md)
+            * [定理汇总](daily/math/advanced_mathematics/theorems_summary.md)
+        * [向量恒等式列表](daily/math/vector_identity_list.md)
         * [观察空间到裁剪空间的投影矩阵推导](daily/math/model_2_clip_projection_matrix/README.md)
     * [日常物理](daily/physics/README.md)
-    * [日常Unity](daily/unity/README.md)
-        * [Unity面试题](daily/unity/unity_interview_topics.md)
-        * [C#面试题](daily/unity/csharp_interview_topics.md)
+    * [日常游戏](daily/game/README.md)
+        * [游戏同步策略](daily/game/game_synchronization_strategy.md)
+        * [Unity面试题](daily/game/unity_interview_topics.md)
+        * [C#面试题](daily/game/csharp_interview_topics.md)
 
 -----
 * [工具相关](tools/README.md)
