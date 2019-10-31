@@ -24,6 +24,9 @@
 		},
 		"hide-element": {
 			"elements": [".gitbook-link"]
-		}
+		},
+		"mathjax":{
+            "forceSVG": true
+        }
 	}
 }
