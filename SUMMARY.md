@@ -64,7 +64,7 @@
         * [观察空间到裁剪空间的投影矩阵推导](daily/math/model_2_clip_projection_matrix/README.md)
     * [日常物理](daily/physics/README.md)
     * [日常游戏](daily/game/README.md)
-        * [游戏同步策略](daily/game/game_synchronization_strategy.md)
+        * [游戏同步策略](daily/game/game_synchronization_strategy/README.md)
         * [Unity面试题](daily/game/unity_interview_topics.md)
         * [C#面试题](daily/game/csharp_interview_topics.md)
 
