@@ -8,7 +8,7 @@
 			"Home" : "http://jimdreamheart.club"
 		}
 	},
-	"plugins" : ["favicon", "expandable-chapters", "splitter", "github", "hide-element", "back-to-top-button"],
+	"plugins" : ["favicon", "expandable-chapters", "splitter", "github", "hide-element", "back-to-top-button", "mathjax"],
 	"pluginsConfig" : {
 		"favicon": {
 			"shortcut": "dzjh.ico",
