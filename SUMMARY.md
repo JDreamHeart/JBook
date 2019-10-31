@@ -63,6 +63,8 @@
         * [向量恒等式列表](daily/math/vector_identity_list.md)
         * [观察空间到裁剪空间的投影矩阵推导](daily/math/model_2_clip_projection_matrix/README.md)
     * [日常物理](daily/physics/README.md)
+        * [基础物理](daily/physics/basic_physics/README.md)
+            * [麦克斯韦方程组](daily/physics/basic_physics/maxwell_equations.md)
     * [日常游戏](daily/game/README.md)
         * [游戏同步策略](daily/game/game_synchronization_strategy/README.md)
         * [Unity面试题](daily/game/unity_interview_topics.md)
