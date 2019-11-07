@@ -13,12 +13,14 @@
 ## 4. python3的安装
   * 参考[python3安装](../centosserver/centos_server_installations.md#5%20安装python3)
 
-### 2.1 py3的相关模块安装
-
 ## 5. nodeJs的安装
   * 一般会自带。
+  * 若没自带，参考[nodeJs安装](../centosserver/centos_server_installations.md#6%20安装nodeJs)
 
 ## 6. git的安装
   * 参考[git安装](../centosserver/centos_server_installations.md#2%20Git)
 
 ## 7. gitbook的安装
+  * 确保nodeJS已安装；
+  * 确保已[安装npm](../centosserver/centos_server_installations.md#7%20安装npm)；
+  * 参考[安装gitbook](../centosserver/centos_server_installations.md#8%20安装gitbook)。

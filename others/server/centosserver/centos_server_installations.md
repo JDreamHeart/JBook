@@ -86,3 +86,43 @@ cd 文件名
 make
 make install
 ```
+
+## 6 安装nodeJs
+下载及安装
+```
+curl http://nodejs.org/dist/vx.x.x/node-vx.x.x.tar.gz  -o node-vx.x.x.tar.gz
+tar zxvf node-vx.x.x.tar.gz
+cd node-vx.x.x
+./configure --prefix=/usr/local/node
+make
+make install
+```
+
+生成软连接
+```
+ln -s /usr/local/node/bin/* /usr/sbin/
+```
+
+检测是否安装成功
+```
+node -v
+```
+
+## 7 安装npm
+```
+curl -L https://npmjs.org/install.sh | sh
+```
+
+检测是否安装成功
+```
+npm -v
+```
+
+## 8 安装gitbook
+安装命令
+```
+npm install -g gitbook
+npm install -g gitbook-cli
+ln -s /usr/local/node/bin/* /usr/sbin/
+gitbook -V
+```
