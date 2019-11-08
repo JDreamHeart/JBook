@@ -85,3 +85,4 @@
             * [相关环境的安装](others/server/myserver/server_envs.md)
             * [相关资源的拉取](others/server/myserver/server_assets.md)
             * [相关配置的修改](others/server/myserver/server_configs.md)
+            * [相关服务的启动](others/server/myserver/server_start_up.md)
