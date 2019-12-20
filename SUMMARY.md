@@ -58,6 +58,7 @@
             * [pythonic方式](daily/coding/python/pythonic_skills.md)
         * [网络通信](daily/coding/communication/README.md)
         * [从输入Url到页面渲染](daily/coding/urlrender/README.md)
+        * [领域驱动设计（DDD）](daily/coding/domain_driven_design/README.md)
     * [日常数学](daily/math/README.md)
 		* [高等数学](daily/math/advanced_mathematics/README.md)
             * [公式汇总](daily/math/advanced_mathematics/formula_summary.md)
@@ -71,6 +72,7 @@
         * [游戏同步策略](daily/game/game_synchronization_strategy/README.md)
         * [Unity面试题](daily/game/unity_interview_topics.md)
         * [C#面试题](daily/game/csharp_interview_topics.md)
+        * [碰撞检测算法](daily/game/collision_detection_algorithm/README.md)
 
 -----
 * [其他](others/README.md)
