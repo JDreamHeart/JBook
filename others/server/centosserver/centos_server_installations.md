@@ -177,7 +177,7 @@ gitbook -V
 
 
 ## 9 nginx
-安装命令
+### 安装命令
 ```
 curl http://nginx.org/download/nginx-x.x.x.tar.gz -o nginx-x.x.x.tar.gz
 
@@ -189,9 +189,8 @@ make install
 ```
 
 ### 配置Nginx
-#### 更新配置
+#### 更新Nginx配置
 注意不在原来的所解压的目录配置`nginx.conf`，而应该在`/usr/local/nginx/`中。
-  * 更新配置
 ```
 // 修改80端口监听
 server {
@@ -224,7 +223,7 @@ server {
 }
 ```
 
-  * 命令行操作命令
+### 操作命令
 ```
 // 更新配置
 ./configure --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_ssl_module
