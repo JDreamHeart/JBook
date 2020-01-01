@@ -1,8 +1,12 @@
 # 相关环境的安装
 
 ----
-## 1. httpd的安装
+## 1. httpd或nginx的安装
+### 1.1 httpd的安装
   * 参考[httpd安装](../centosserver/centos_server_installations.md#4%20httpd)
+
+### 1.2 nginx的安装
+  * 参考[nginx安装](../centosserver/centos_server_installations.md#9%20nginx)
 
 ## 2. mysql的安装
   * 参考[MySQL安装](../centosserver/centos_server_installations.md#1%20MySQL)
