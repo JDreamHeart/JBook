@@ -145,8 +145,8 @@ obj.bindBehavior({"path" : "temp/TempBehavior", "basePath" : _GG("g_CommonPath")
 behaviorId = behavior.getBehaviorId();
 
 # 获取TempBehavior组件【三种方式】
-behavior = obj.getBehaviorByName("TempBehavior");
-behavior = obj.getBehaviorByPath("temp/TempBehavior");
+behaviors = obj.getBehaviorsByName("TempBehavior");
+behaviors = obj.getBehaviorsByPath("temp/TempBehavior");
 behavior = obj.getBehaviorById(behaviorId);
 
 # 解绑组件
